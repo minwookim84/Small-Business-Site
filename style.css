@@ -1,0 +1,209 @@
+/* CSS reset starts here 
+
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS reset ends here	*/
+
+header{
+	position:relative;
+	height:60px;
+	min-width:900px;
+	border-bottom:2px solid #336699;
+	background-color:rgba(0,0,0,0.01);
+	padding:5px 40px 0 72px;
+}
+
+.ubuntu{
+	font-family:'Ubuntu',sans-serif;
+}
+
+.header_right{
+	float:right;
+	margin-right:50px;
+}
+
+.header_left{
+	float:left;
+}
+
+.nav{
+	width:88px;
+	height:33px;
+	font-size:1.1em;
+	margin-right:12px;
+	margin-top:13px;
+	line-height:33px;
+	text-align:center;
+	float:right;
+	color:#666666;
+}
+
+.nav_button{
+	background-color:#4b90e1;
+	color:#FFFFFF;
+	border:1px solid #aaaaaa;
+	border-radius:10px;
+	height:33px;
+	line-height:33px;
+	margin-top:13px;
+}
+
+.container{
+	min-height:300px;
+	border-bottom:1px solid #cccccc;
+	padding:46px 62px 46px 77px;
+	min-width:900px;
+	position:relative;
+}
+
+.white_cont{
+	background-color:#FFFFFF;
+	color:#555555;
+}
+
+.blue_cont{
+	background-color:#4b90e1;
+	color:#FFFFFF;
+}
+
+.gray_cont{
+	background-color:#f5f7f8;
+	color:#444444;
+}
+
+.section_title{
+	font-size:1.5em;
+	width:280px;
+	line-height:1.5em;
+	margin-bottom:20px;
+}
+
+.middle{
+	margin:auto;
+}
+.section_desc{
+	font-size:1em;
+	line-height:1.5em;
+	min-width:440px;
+	max-width:800px;
+}
+
+.container_left{
+	display:inline-block;
+	vertical-align:top;
+	width:420px;
+	height:300px;
+}
+
+.section_img{
+	display:inline-block;
+	width:360px;
+	height:340px;
+	margin-top:-30px;
+	position:absolute;
+	right:100px;
+	border:1px solid #6699ff;
+	background-color:#FFFFFF;
+	border-radius:15px;
+	padding:10px 10px 10px 10px;
+}
+
+.img_square{
+	display:inline-block;
+	width:160px;
+	height:160px;
+	background-color:#FFFFFF;
+	border:2px solid #777777;
+	border-radius:10px;
+	padding:10px 10px 10px 10px;
+	margin-right:10px;
+}
+
+.img_wrap{
+	margin-top:30px;
+	margin-bottom:10px;
+	width:800px;
+}
+
+.img_square_desc_wrap{
+	width:800px;
+	margin:auto;
+}
+.img_square_desc{
+	display:inline-block;
+	width:185px;
+	text-align:center;
+	margin-right:10px;
+}
+
+.customer_img_wrap{
+	width:800px;
+	margin:auto;
+}
+
+.customer_img{
+	display:inline-block;
+	margin:30px 30px 10px 0;
+	width:108px;
+	height:53px;
+	padding:2px 3px 2px 3px;
+	background-color:#FFFFFF;
+	border:2px solid #cccccc;
+	border-radius:5px;
+	width:;
+}
+
+footer{
+	background-color:#FFFFFF;
+	height:250px;
+}
+
+
+
